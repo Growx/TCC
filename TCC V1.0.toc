@@ -10,12 +10,27 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{Introdu\IeC {\c c}\IeC {\~a}o}{23}{chapter*.12}
 \contentsline {part}{\partnumberline {I}\MakeTextUppercase {Prepara\IeC {\c c}\IeC {\~a}o da pesquisa}}{25}{part.1}
-\contentsline {part}{\partnumberline {II}\MakeTextUppercase {Referenciais te\IeC {\'o}ricos}}{27}{part.2}
-\contentsline {part}{\partnumberline {III}\MakeTextUppercase {Resultados}}{29}{part.3}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Kali Linux}}{27}{chapter.1}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Nessus}}{29}{chapter.2}
+\contentsline {part}{\partnumberline {II}\MakeTextUppercase {Testes}}{31}{part.2}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Tipos de Testes}}{33}{chapter.3}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados}}{35}{chapter.4}
+\contentsline {part}{\partnumberline {III}\MakeTextUppercase {Conclus\IeC {\~o}es}}{37}{part.3}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Compara\IeC {\c c}\IeC {\~o}es}}{39}{chapter.5}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Poss\IeC {\'\i }veis solu\IeC {\c c}\IeC {\~o}es para os problemas}}{41}{chapter.6}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Explorando as falhas}}{43}{chapter.7}
+\contentsline {part}{\partnumberline {IV}\MakeTextUppercase {Resultados}}{45}{part.4}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Conclus\IeC {\~a}o}}{31}{chapter.1}
+\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase {Conclus\IeC {\~a}o}}{47}{chapter.8}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{33}{section*.19}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{49}{section*.20}
 \vspace {\cftbeforechapterskip }
