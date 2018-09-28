@@ -451,7 +451,8 @@ O \textit{nessusd} (servidor Nessus) realiza um escaneamento e portas ao alvo e 
 Primeiramente para realizar a instalação do Nessus Home é necessário adquirir uma licença pelo URL http://www.nessus.org/products/nessus/nessus-plugins/obtain-an-activation-code. A licença de ativação será enviada para o e-mail registrado.
 Após realizar o registro, é necessário fazer o \textit{download} do pacote de instalação através da URL http://www.tenable.com/products/nessus/select-your-operating-system, selecionando o seu SO.
 Na distribuição Kali, a instalação pode ser feita através do terminal, navegando até a pasta onde foi feito o \textit{download} e executar o comando: \textbf{sudo dpkg -i Nessus-*.deb}.
-Após a instalação ser concluída, o terminal irá mostrar o endereço de acesso ao Nessus, por exemplo http://kali:8834/, no qual deverá entrar com o código de ativação recebido anteriormente.
+Após a instalação ser concluída, o terminal irá mostrar o endereço de acesso ao Nessus, por exemplo http://kali:8834/.
+Para iniciar o serviço do Nessus, basta executar no terminal o comando: \textbf{service nessusd start}. Após a execução basta acessar o endereço que foi dado e entrar com o código de ativação. Será executado a compilação de todos os \textit{plugins} utilizados pela ferramenta.
 % ----------------------------------------------------------
 % PARTE
 % ----------------------------------------------------------
