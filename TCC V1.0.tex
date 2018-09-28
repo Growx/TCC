@@ -438,21 +438,21 @@ Após verificação das falhas de segurança, serão apresentadas possíveis sol
 \chapter{Kali Linux}
 \section{Escolha do Sistema Operacional}
 Para o desenvolvimento desse estudo foi escolhido o Kali Linux como sistema operacional, pois esse SO é enriquecido com várias ferramentas para realização de \textit{Pentests}, entre outras atividades de \textit{hacking}.
-O Kali Linux é uma distribuição GNU/Linux baseada no Debian e é um sistema \textit{Open-Source} distribuído sob a licença \textbf{GNU GPL}. Ele é desenvolvido e mantido pela Offensive Security Ltd.
+\\O Kali Linux é uma distribuição GNU/Linux baseada no Debian e é um sistema \textit{Open-Source} distribuído sob a licença \textbf{GNU GPL}. Ele é desenvolvido e mantido pela Offensive Security Ltd.
 
 \chapter{Nessus}
 
 \section{Sobre o Nessus}
 A ferramenta utilizada nesse estudo é a Nessus Home, que é uma versão para uso pessoal e estudos, as diferenças entre a versão \textit{Professional} é que há uma limitação de 16 endereços de IP por escaneamento, não há acesso ao suporte da ferramenta e não é possível realizar verificações de conformidade e auditoria de conteúdo.
-Nessus é desenvolvido e distribuido pela Tenable Network Security, Inc e distribuído sob os termos da Licença Pública Geral GNU. Ele é composto por um cliente e um servidor, sendo o \textit{scan} feito pelo servidor.
-O \textit{nessusd} (servidor Nessus) realiza um escaneamento e portas ao alvo e após encontrar uma porta aberta, é executado diversos scripts escritos em  NASL (Nessus Attack Scripting Language) que verificam as vulnerabilidade.
+\\Nessus é desenvolvido e distribuido pela Tenable Network Security, Inc e distribuído sob os termos da Licença Pública Geral GNU. Ele é composto por um cliente e um servidor, sendo o \textit{scan} feito pelo servidor.
+\\O \textit{nessusd} (servidor Nessus) realiza um escaneamento e portas ao alvo e após encontrar uma porta aberta, é executado diversos scripts escritos em  NASL (Nessus Attack Scripting Language) que verificam as vulnerabilidade.
 
 \section{Instalação}
 Primeiramente para realizar a instalação do Nessus Home é necessário adquirir uma licença pelo URL http://www.nessus.org/products/nessus/nessus-plugins/obtain-an-activation-code. A licença de ativação será enviada para o e-mail registrado.
 Após realizar o registro, é necessário fazer o \textit{download} do pacote de instalação através da URL http://www.tenable.com/products/nessus/select-your-operating-system, selecionando o seu SO.
-Na distribuição Kali, a instalação pode ser feita através do terminal, navegando até a pasta onde foi feito o \textit{download} e executar o comando: \textbf{sudo dpkg -i Nessus-*.deb}.
-Após a instalação ser concluída, o terminal irá mostrar o endereço de acesso ao Nessus, por exemplo http://kali:8834/.
-Para iniciar o serviço do Nessus, basta executar no terminal o comando: \textbf{service nessusd start}. Após a execução basta acessar o endereço que foi dado e entrar com o código de ativação. Será executado a compilação de todos os \textit{plugins} utilizados pela ferramenta.
+\\Na distribuição Kali, a instalação pode ser feita através do terminal, navegando até a pasta onde foi feito o \textit{download} e executar o comando: \textbf{sudo dpkg -i Nessus-*.deb}.
+\\Após a instalação ser concluída, o terminal irá mostrar o endereço de acesso ao Nessus, por exemplo http://kali:8834/.
+\\Para iniciar o serviço do Nessus, basta executar no terminal o comando: \textbf{service nessusd start}. Após a execução basta acessar o endereço que foi dado e entrar com o código de ativação. Será executado a compilação de todos os \textit{plugins} utilizados pela ferramenta.
 % ----------------------------------------------------------
 % PARTE
 % ----------------------------------------------------------
