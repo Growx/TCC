@@ -452,7 +452,15 @@ Primeiramente para realizar a instalação do Nessus Home é necessário adquiri
 Após realizar o registro, é necessário fazer o \textit{download} do pacote de instalação através da URL http://www.tenable.com/products/nessus/select-your-operating-system, selecionando o seu SO.
 \\Na distribuição Kali, a instalação pode ser feita através do terminal, navegando até a pasta onde foi feito o \textit{download} e executar o comando: \textbf{sudo dpkg -i Nessus-*.deb}.
 \\Após a instalação ser concluída, o terminal irá mostrar o endereço de acesso ao Nessus, por exemplo http://kali:8834/.
-\\Para iniciar o serviço do Nessus, basta executar no terminal o comando: \textbf{service nessusd start}. Após a execução basta acessar o endereço que foi dado e entrar com o código de ativação. Será executado a compilação de todos os \textit{plugins} utilizados pela ferramenta.
+\\Para iniciar o serviço do Nessus, basta executar no terminal o comando: \textbf{service nessusd start}, acessar o endereço que foi dado anteriormente e entrar com o código de ativação. Será executado a compilação de todos os \textit{plugins} utilizados pela ferramenta.
+
+\section{Configuração}
+Para a realização dos testes foi realizado a criação de uma politica de \textit{plugins}, na qual são definidos quais as vulnerabilidades que serão buscadas durante o \textit{scan}.
+\\Para esse estudo foi utilizado um \textit{scan} completo do \textit{website} utilizando todos os \textit{plugins} disponíveis.
+
+\section{Plugins}
+Os \textit{plugins} utilizados nesse estudo são os seguintes:
+\item TODO
 % ----------------------------------------------------------
 % PARTE
 % ----------------------------------------------------------
