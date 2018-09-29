@@ -7,30 +7,31 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Introdu\IeC {\c c}\IeC {\~a}o}{23}{chapter*.12}
-\contentsline {part}{\partnumberline {I}\MakeTextUppercase {Prepara\IeC {\c c}\IeC {\~a}o da pesquisa}}{25}{part.1}
+\contentsline {chapter}{Introdu\IeC {\c c}\IeC {\~a}o}{21}{chapter*.10}
+\contentsline {part}{\partnumberline {I}\MakeTextUppercase {Prepara\IeC {\c c}\IeC {\~a}o da pesquisa}}{23}{part.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Kali Linux}}{27}{chapter.1}
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Kali Linux}}{25}{chapter.1}
+\contentsline {section}{\numberline {1.1}Escolha do Sistema Operacional}{25}{section.1.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Nessus}}{29}{chapter.2}
-\contentsline {part}{\partnumberline {II}\MakeTextUppercase {Testes}}{31}{part.2}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Nessus}}{27}{chapter.2}
+\contentsline {section}{\numberline {2.1}Sobre o Nessus}{27}{section.2.1}
+\contentsline {section}{\numberline {2.2}Instala\IeC {\c c}\IeC {\~a}o}{27}{section.2.2}
+\contentsline {section}{\numberline {2.3}Configura\IeC {\c c}\IeC {\~a}o}{27}{section.2.3}
+\contentsline {part}{\partnumberline {II}\MakeTextUppercase {Testes}}{29}{part.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Tipos de Testes}}{33}{chapter.3}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Tipos de Testes}}{31}{chapter.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados}}{35}{chapter.4}
-\contentsline {part}{\partnumberline {III}\MakeTextUppercase {Conclus\IeC {\~o}es}}{37}{part.3}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados}}{33}{chapter.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Compara\IeC {\c c}\IeC {\~o}es}}{39}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Compara\IeC {\c c}\IeC {\~o}es}}{35}{chapter.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Poss\IeC {\'\i }veis solu\IeC {\c c}\IeC {\~o}es para os problemas}}{41}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Poss\IeC {\'\i }veis solu\IeC {\c c}\IeC {\~o}es para os problemas}}{37}{chapter.6}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Explorando as falhas}}{43}{chapter.7}
-\contentsline {part}{\partnumberline {IV}\MakeTextUppercase {Resultados}}{45}{part.4}
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Explorando as falhas}}{39}{chapter.7}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase {Conclus\IeC {\~a}o}}{47}{chapter.8}
+\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase {Conclus\IeC {\~a}o}}{41}{chapter.8}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{49}{section*.20}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{43}{section*.16}
 \vspace {\cftbeforechapterskip }
