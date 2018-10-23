@@ -3,6 +3,153 @@
 \setlength{\labelsep}{0pt}\begin{thebibliography}{}
 \providecommand{\abntrefinfo}[3]{}
 \providecommand{\abntbstabout}[1]{}
+\providecommand{\bibtextitlecommand}[2]{#2}
 \abntbstabout{v-1.9.6 }
+
+\bibitem[]{abnt-show-options=list}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{abnt-show-options=list}! . Op\c c\~ao selecionada {\tt
+  abnt-show-options=}\verb+list+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{abnt-show-options=list,
+key={aaaa},
+abnt-show-options={list}}
+\end{verbatim}}
+\bibitem[]{abnt-substyle=none}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{abnt-substyle=none}! .}
+{\footnotesize\begin{verbatim}
+@abnt-options{abnt-substyle=none,
+key={aaaa}}
+\end{verbatim}}
+\bibitem[]{abnt-substyle=UFLA}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{abnt-substyle=UFLA}! . Op\c c\~ao selecionada {\tt
+  abnt-and-type=}\verb+&+. Op\c c\~ao selecionada {\tt
+  abnt-etal-cite=}\verb+2+. Op\c c\~ao selecionada {\tt
+  abnt-etal-list=}\verb+0+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{abnt-substyle=UFLA,
+key={aaaa}}
+\end{verbatim}}
+\bibitem[]{abnt-substyle=COPPE}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{abnt-substyle=COPPE}! . Op\c c\~ao selecionada {\tt
+  abnt-title-command=}\verb+yes+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{abnt-substyle=COPPE,
+key={aaaa},
+abnt-title-command={yes}}
+\end{verbatim}}
+\bibitem[]{abnt-thesis-year=final}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{abnt-thesis-year=final}! . Op\c c\~ao selecionada {\tt
+  abnt-thesis-year=}\verb+final+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{abnt-thesis-year=final,
+key={aaaa},
+abnt-thesis-year={final}}
+\end{verbatim}}
+\bibitem[]{abnt-thesis-year=title}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{abnt-thesis-year=title}! . Op\c c\~ao selecionada {\tt
+  abnt-thesis-year=}\verb+title+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{abnt-thesis-year=title,
+key={aaaa},
+abnt-thesis-year={title}}
+\end{verbatim}}
+\bibitem[]{abnt-thesis-year=both}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{abnt-thesis-year=both}! . Op\c c\~ao selecionada {\tt
+  abnt-thesis-year=}\verb+both+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{abnt-thesis-year=both,
+key={aaaa},
+abnt-thesis-year={both}}
+\end{verbatim}}
+\bibitem[]{abnt-title-command=no}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{abnt-title-command=no}! . Op\c c\~ao selecionada {\tt
+  abnt-title-command=}\verb+no+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{abnt-title-command=no,
+key={aaaa},
+abnt-title-command={no}}
+\end{verbatim}}
+\bibitem[]{abnt-title-command=yes}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{abnt-title-command=yes}! . Op\c c\~ao selecionada {\tt
+  abnt-title-command=}\verb+yes+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{abnt-title-command=yes,
+key={aaaa},
+abnt-title-command={yes}}
+\end{verbatim}}
+\bibitem[]{abnt-url-package=none}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{abnt-url-package=none}! . Op\c c\~ao selecionada {\tt
+  abnt-url-package=}\verb+none+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{abnt-url-package=none,
+key={aaaa},
+abnt-url-package={none}}
+\end{verbatim}}
+\bibitem[]{abnt-url-package=hyperref}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{abnt-url-package=hyperref}! . Op\c c\~ao selecionada {\tt
+  abnt-url-package=}\verb+hyperref+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{abnt-url-package=hyperref,
+key={aaaa},
+abnt-url-package={hyperref}}
+\end{verbatim}}
+\bibitem[]{abnt-verbatim-entry=no}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{abnt-verbatim-entry=no}! . Op\c c\~ao selecionada {\tt
+  abnt-verbatim-entry=}\verb+no+.}
+
+\bibitem[]{iso-690-1987}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{iso-690-1987}! . Op\c c\~ao selecionada {\tt
+  abnt-cite-style=}\verb+(Author, YEAR)+.}
+ Op\c c\~ao selecionada {\tt iso-abbreviation=}\verb+standard+. Op\c c\~ao
+  selecionada {\tt iso-author-punctuation=}\verb+void+.
+\bibitem[Bos \& Mauw 2002]{BM02b}
+{BOS, V.; MAUW, S. 2002a. \bibtextitlecommand{manual}{\emph{A {\LaTeX{}} macro
+  package for Message Sequence Charts---Maintenance document---Describing
+  {\mscpack} version~{\mscversion}}}.
+[S.l.]. Included in MSC macro package distribution.}
+
+\bibitem[Bos \& Mauw 2002]{BM02}
+{\underline{\ \ \ \ \ \ \ \ }. 2002b. \bibtextitlecommand{manual}{\emph{A
+  {\LaTeX{}} macro package for Message Sequence Charts---Reference
+  Manual---Describing {\mscpack} version~{\mscversion}}}.
+[S.l.]. Included in MSC macro package distribution.}
+
+\bibitem[Bos \& Mauw 2002]{BM02a}
+{\underline{\ \ \ \ \ \ \ \ }. 2002c. \bibtextitlecommand{manual}{\emph{A
+  {\LaTeX{}} macro package for Message Sequence Charts---User
+  Manual---Describing {\mscpack} version~{\mscversion}}}.
+[S.l.]. Included in MSC macro package distribution.}
+
+\bibitem[Goossens 1997]{GSM97}
+{GOOSSENS, Michel; RAHTZ, Sebastian; MITTELBACH, Frank. 1997.
+  \bibtextitlecommand{book}{\emph{{T}he {\LaTeX} {G}raphics {C}ompanion}}.
+  [S.l.]: Addison-Wesley.}
+
+\bibitem[ITU-TS 1997]{z120}
+{ITU-TS. 1997. \bibtextitlecommand{booklet}{\emph{{ITU-TS} {R}ecommendation
+  {Z.120}: {M}essage {S}equence {C}hart {(MSC)}}}. Geneva.}
+
+\bibitem[Lamport 1994]{Lam94}
+{LAMPORT, L. 1994. \bibtextitlecommand{book}{\emph{{\LaTeX}---A Document
+  Preparation System---User's Guide and Reference Manual}}. 2nd. ed. [S.l.]:
+  Adsison-Wesley. Updated for {\LaTeXe}.}
+
+\bibitem[Rudolph 1996]{RudolphGrabowskiGraubmann96}
+{RUDOLPH, E.; P.GRAUBMANN; GRABOWSKI, J. 1996.
+  \bibtextitlecommand{inproceedings}{Tutorial on message sequence charts
+  {(MSC'96})}. In \emph{FORTE}. [S.l.: s.n.].}
 
 \end{thebibliography}
