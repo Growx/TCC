@@ -541,6 +541,207 @@ are a SUDO user.
 - Configuration information about the remote PHP 
 installation."
 
+\subsection{POP3 Cleartext Logins Permitted}
+"The remote host is running a POP3 daemon that allows cleartext logins
+over unencrypted connections. An attacker can uncover user names and
+passwords by sniffing traffic to the POP3 daemon if a less secure
+authentication mechanism (eg, USER command, AUTH PLAIN, AUTH LOGIN) is
+used."
+
+\subsection{Web Server Transmits Cleartext Credentials}
+	"The remote web server contains several HTML form fields containing
+	an input of type 'password' which transmit their information to
+	a remote web server in cleartext.
+	
+	An attacker eavesdropping the traffic between web browser and 
+	server may obtain logins and passwords of valid users."
+
+\subsection{SSL Anonymous Cipher Suites Supported}
+"The remote host supports the use of anonymous SSL ciphers. While this
+enables an administrator to set up a service that encrypts traffic
+without having to generate and configure SSL certificates, it offers
+no way to verify the remote host's identity and renders the service
+vulnerable to a man-in-the-middle attack.
+
+Note: This is considerably easier to exploit if the attacker is on the
+same physical network."
+	
+\subsection{Unix Operating System Unsupported Version Detection}
+"According to its self-reported version number, the Unix operating
+system running on the remote host is no longer supported.
+
+Lack of support implies that no new security patches for the product
+will be released by the vendor. As a result, it is likely to contain
+security vulnerabilities."
+
+\subsection{Browsable Web Directories}
+"Multiple Nessus plugins identified directories on the web server
+that are browsable."
+
+\subsection{SSL Medium Strength Cipher Suites Supported}
+"The remote host supports the use of SSL ciphers that offer medium
+strength encryption. Nessus regards medium strength as any encryption
+that uses key lengths at least 64 bits and less than 112 bits, or else
+that uses the 3DES encryption suite.
+
+Note that it is considerably easier to circumvent medium strength
+encryption if the attacker is on the same physical network."
+
+\subsection{Web Server Generic Cookie Injection}
+"The remote host is running a web server that fails to adequately
+sanitize request strings of malicious JavaScript.  By leveraging this
+issue, an attacker may be able to inject arbitrary cookies.  Depending
+on the structure of the web application, it may be possible to launch
+a 'session fixation' attack using this mechanism.
+
+Please note that :
+
+- Nessus did not check if the session fixation attack is
+feasible.
+
+- This is not the only vector of session fixation."
+
+\subsection{SSL Certificate with Wrong Hostname}
+"The 'commonName' (CN) attribute of the SSL certificate presented for
+this service is for a different machine."
+
+\subsection{PHP expose\_php Information Disclosure}
+"The PHP install on the remote server is configured in a way that
+allows disclosure of potentially sensitive information to an attacker
+through a special URL.  Such a URL triggers an Easter egg built into
+PHP itself. 
+
+Other such Easter eggs likely exist, but Nessus has not checked for
+them."
+
+\subsection{SSL Certificate Cannot Be Trusted}
+"The server's X.509 certificate cannot be trusted. This situation can
+occur in three different ways, in which the chain of trust can be
+broken, as stated below :
+
+- First, the top of the certificate chain sent by the
+server might not be descended from a known public
+certificate authority. This can occur either when the
+top of the chain is an unrecognized, self-signed
+certificate, or when intermediate certificates are
+missing that would connect the top of the certificate
+chain to a known public certificate authority.
+
+- Second, the certificate chain may contain a certificate
+that is not valid at the time of the scan. This can
+occur either when the scan occurs before one of the
+certificate's 'notBefore' dates, or after one of the
+certificate's 'notAfter' dates.
+
+- Third, the certificate chain may contain a signature
+that either didn't match the certificate's information
+or could not be verified. Bad signatures can be fixed by
+getting the certificate with the bad signature to be
+re-signed by its issuer. Signatures that could not be
+verified are the result of the certificate's issuer
+using a signing algorithm that Nessus either does not
+support or does not recognize.
+
+If the remote host is a public host in production, any break in the
+chain makes it more difficult for users to verify the authenticity and 
+identity of the web server. This could make it easier to carry out 
+man-in-the-middle attacks against the remote host."
+
+\subsection{SMTP Service Cleartext Login Permitted}
+"The remote host is running an SMTP server that advertises that it
+allows cleartext logins over unencrypted connections.  An attacker may
+be able to uncover user names and passwords by sniffing traffic to the
+server if a less secure authentication mechanism (i.e.  LOGIN or
+PLAIN) is used."
+
+\subsection{PHP Unsupported Version Detection}
+"According to its version, the installation of PHP on the remote host
+is no longer supported.
+
+Lack of support implies that no new security patches for the product
+will be released by the vendor. As a result, it is likely to contain
+security vulnerabilities."
+
+\subsection{Transport Layer Security (TLS) Protocol CRIME Vulnerability}
+"The remote service has one of two configurations that are known to be
+required for the CRIME attack :
+
+- SSL / TLS compression is enabled.
+
+- TLS advertises the SPDY protocol earlier than version 4.
+
+Note that Nessus did not attempt to launch the CRIME attack against the
+remote service."
+
+\subsection{Git Repository Served by Web Server}
+"The web server on the remote host allows read access to a Git
+repository.  This potential flaw can be used to download content from
+the Web server that might otherwise be private."
+
+\subsection{SSL RC4 Cipher Suites Supported (Bar Mitzvah)}
+"The remote host supports the use of RC4 in one or more cipher suites.
+The RC4 cipher is flawed in its generation of a pseudo-random stream
+of bytes so that a wide variety of small biases are introduced into
+the stream, decreasing its randomness.
+
+If plaintext is repeatedly encrypted (e.g., HTTP cookies), and an
+attacker is able to obtain many (i.e., tens of millions) ciphertexts,
+the attacker may be able to derive the plaintext."
+
+\subsection{SSH Server CBC Mode Ciphers Enabled}
+"The SSH server is configured to support Cipher Block Chaining (CBC)
+encryption.  This may allow an attacker to recover the plaintext message
+from the ciphertext. 
+
+Note that this plugin only checks for the options of the SSH server and
+does not check for vulnerable software versions."
+
+\subsection{SSH Weak MAC Algorithms Enabled}
+"The remote SSH server is configured to allow either MD5 or 96-bit MAC
+algorithms, both of which are considered weak.
+
+Note that this plugin only checks for the options of the SSH server,
+and it does not check for vulnerable software versions."
+
+\subsection{Web Application Potentially Vulnerable to Clickjacking}
+"The remote web server does not set an X-Frame-Options response header
+or a Content-Security-Policy 'frame-ancestors' response header in all
+content responses. This could potentially expose the site to a
+clickjacking or UI redress attack, in which an attacker can trick a
+user into clicking an area of the vulnerable page that is different
+than what the user perceives the page to be. This can result in a user
+performing fraudulent or malicious transactions.
+
+X-Frame-Options has been proposed by Microsoft as a way to mitigate
+clickjacking attacks and is currently supported by all major browser
+vendors.
+
+Content-Security-Policy (CSP) has been proposed by the W3C Web
+Application Security Working Group, with increasing support among
+all major browser vendors, as a way to mitigate clickjacking and other
+attacks. The 'frame-ancestors' policy directive restricts which
+sources can embed the protected resource.
+
+Note that while the X-Frame-Options and Content-Security-Policy
+response headers are not the only mitigations for clickjacking, they
+are currently the most reliable methods that can be detected through
+automation. Therefore, this plugin may produce false positives if
+other mitigation strategies (e.g., frame-busting JavaScript) are
+deployed or if the page does not perform any security-sensitive
+transactions."
+
+\subsection{WordPress User Enumeration}
+"The version of WordPress hosted on the remote web server is affected
+by a user enumeration vulnerability. An unauthenticated, remote
+attacker can exploit this to learn the names of valid WordPress users.
+This information could be used to mount further attacks."
+
+\subsection{SSH Weak Algorithms Supported}
+"Nessus has detected that the remote SSH server is configured to use
+the Arcfour stream cipher or no cipher at all. RFC 4253 advises
+against using Arcfour due to an issue with weak keys."
+
+
 \chapter{Resultados}
 
 \chapter{Comparações}
