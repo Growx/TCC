@@ -514,7 +514,32 @@ Os \textit{plugins} utilizados nesse estudo e os seus respectivos \textit{IDs} n
 \end{itemize}
 
 \section{Descrição dos Plugins}
-	
+	\title{Web Server Generic XSS}
+"The remote host is running a web server that fails to adequately
+sanitize request strings of malicious JavaScript. A remote attacker
+can exploit this issue, via a specially crafted request, to execute
+arbitrary HTML and script code in a user's browser within the security
+context of the affected site."
+\title{Web Server info.php / phpinfo.php Detection}
+"Many PHP installation tutorials instruct the user to create a PHP file
+that calls the PHP function 'phpinfo()' for debugging purposes. 
+Various PHP applications may also include such a file.  By accessing
+such a file, a remote attacker can discover a large amount of
+information about the remote web server, including :
+
+- The username of the user who installed PHP and if they
+are a SUDO user.
+
+- The IP address of the host.
+
+- The version of the operating system.
+
+- The web server version.
+
+- The root directory of the web server. 
+
+- Configuration information about the remote PHP 
+installation."
 
 \chapter{Resultados}
 
