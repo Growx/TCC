@@ -591,45 +591,31 @@ De acordo com sua versão, a instalação do PHP no host remoto não é mais sup
 A falta de suporte implica que nenhum novo \textit{patch} de segurança para o produto será liberado pelo fornecedor. Como resultado, é provável que contenha vulnerabilidades de segurança.
 
 \subsection{Transport Layer Security (TLS) Protocol CRIME Vulnerability}
-"The remote service has one of two configurations that are known to be
-required for the CRIME attack :
 
-- SSL / TLS compression is enabled.
-
-- TLS advertises the SPDY protocol earlier than version 4.
-
-Note that Nessus did not attempt to launch the CRIME attack against the
-remote service."
+O serviço remoto tem uma das duas configurações que são conhecidas por serem necessárias para o ataque de CRIME:
+\begin{itemize}
+	\item A compactação SSL/TLS está habilitada.
+	\item TLS anuncia o protocolo SPDY anteriores à versão 4.
+\end{itemize}
+O Nessus não tentou lançar o ataque CRIME contra o serviço remoto, apenas verificou que é possivel realizar o ataque.
 
 \subsection{Git Repository Served by Web Server}
-"The web server on the remote host allows read access to a Git
-repository.  This potential flaw can be used to download content from
-the Web server that might otherwise be private."
+ O servidor Web no host remoto permite o acesso de leitura a um repositório git.  Essa falha potencial pode ser usada para baixar o conteúdo do servidor Web que, de outra forma, pode ser privado.
 
 \subsection{SSL RC4 Cipher Suites Supported (Bar Mitzvah)}
-"The remote host supports the use of RC4 in one or more cipher suites.
-The RC4 cipher is flawed in its generation of a pseudo-random stream
-of bytes so that a wide variety of small biases are introduced into
-the stream, decreasing its randomness.
 
-If plaintext is repeatedly encrypted (e.g., HTTP cookies), and an
-attacker is able to obtain many (i.e., tens of millions) ciphertexts,
-the attacker may be able to derive the plaintext."
+O host remoto suporta o uso de RC4 em um ou mais conjuntos de codificação. A cifra RC4 é falho em sua geração de um fluxo pseudo-aleatório de bytes para que uma grande variedade de pequenas distorções são introduzidos no fluxo, diminuindo sua aleatoriedade.
+Se o texto sem formatação for criptografado repetidamente (por exemplo, \textit{Cookies} HTTP) e um invasor conseguir obter muitos (ou seja, dezenas de milhões) de textos cifrados, o invasor poderá derivar o texto sem formatação.
 
 \subsection{SSH Server CBC Mode Ciphers Enabled}
-"The SSH server is configured to support Cipher Block Chaining (CBC)
-encryption.  This may allow an attacker to recover the plaintext message
-from the ciphertext. 
-
-Note that this plugin only checks for the options of the SSH server and
-does not check for vulnerable software versions."
+ O servidor SSH está configurado para suportar criptografia de encadeamento de bloco de codificação (CBC).  Isso pode permitir que um invasor recupere a mensagem de texto sem formatação do texto cifrado. 
+\\
+Este plugin só verifica as opções do servidor SSH e não verifica se há versões de software vulneráveis.
 
 \subsection{SSH Weak MAC Algorithms Enabled}
-"The remote SSH server is configured to allow either MD5 or 96-bit MAC
-algorithms, both of which are considered weak.
-
-Note that this plugin only checks for the options of the SSH server,
-and it does not check for vulnerable software versions."
+O servidor SSH remoto está configurado para permitir algoritmos de  MD5 ou MAC 96 bits, ambos considerados fracos.
+\\
+Este plugin só verifica as opções do servidor SSH e não verifica se há versões de software vulneráveis.
 
 \subsection{Web Application Potentially Vulnerable to Clickjacking}
 "The remote web server does not set an X-Frame-Options response header
