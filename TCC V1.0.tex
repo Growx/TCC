@@ -519,59 +519,43 @@ Os \textit{plugins} utilizados nesse estudo e os seus respectivos \textit{IDs} n
 
 \subsection{Web Server info.php / phpinfo.php Detection}
 
- Muitos tutoriais de instalação do PHP instruem o usuário a criar um arquivo PHP que chama a função PHP ' phpinfo () ' para fins de depuração. Vários aplicativos PHP também podem incluir esse arquivo.  Ao acessar esse arquivo, um invasor remoto pode descobrir uma grande quantidade de informações sobre o servidor Web remoto, incluindo:
- \begin{itemize}
- 	\item O nome do usuário que instalou o PHP e se eles são um usuário SUDO.
- 	\item O endereço IP do host.
- 	\item A versão do sistema operativo.
- 	\item A versão do servidor Web.
- 	\item O diretório raiz do servidor Web.
- 	\item Informações de configuração sobre a instalação remota do PHP.
- \end{itemize}
+	 Muitos tutoriais de instalação do PHP instruem o usuário a criar um arquivo PHP que chama a função PHP ' phpinfo () ' para fins de depuração. Vários aplicativos PHP também podem incluir esse arquivo.  Ao acessar esse arquivo, um invasor remoto pode descobrir uma grande quantidade de informações sobre o servidor Web remoto, incluindo:
+	 \begin{itemize}
+	 	\item O nome do usuário que instalou o PHP e se eles são um usuário SUDO.
+	 	\item O endereço IP do host.
+	 	\item A versão do sistema operativo.
+	 	\item A versão do servidor Web.
+	 	\item O diretório raiz do servidor Web.
+	 	\item Informações de configuração sobre a instalação remota do PHP.
+	 \end{itemize}
 
 \subsection{POP3 Cleartext Logins Permitted}
 
- O host remoto está executando um \textit{DAEMON} POP3 que permite logons de texto sem criptografia em conexões não criptografadas. Um invasor pode descobrir nomes de usuário e senhas farejando o tráfego para o \textit{DAEMON} POP3 se um mecanismo de autenticação menos seguro (por exemplo, comando USER, AUTH PLAIN, AUTH LOGIN) é usado.
+ 	O host remoto está executando um \textit{DAEMON} POP3 que permite logons de texto sem criptografia em conexões não criptografadas. Um invasor pode descobrir nomes de usuário e senhas farejando o tráfego para o \textit{DAEMON} POP3 se um mecanismo de autenticação menos seguro (por exemplo, comando USER, AUTH PLAIN, AUTH LOGIN) é usado.
 
 \subsection{Web Server Transmits Cleartext Credentials}
-	"The remote web server contains several HTML form fields containing
-	an input of type 'password' which transmit their information to
-	a remote web server in cleartext.
-	
-	An attacker eavesdropping the traffic between web browser and 
-	server may obtain logins and passwords of valid users."
+
+	O servidor Web remoto contém vários campos de formulário HTML contendo uma entrada do tipo '\textit{password}' que transmitem suas informações para um servidor Web remoto em texto não criptografado.
+ \\
+	Um invasor que está escutando o tráfego entre o navegador da Web e o servidor pode obter logins e senhas de usuários válidos.
 
 \subsection{SSL Anonymous Cipher Suites Supported}
-"The remote host supports the use of anonymous SSL ciphers. While this
-enables an administrator to set up a service that encrypts traffic
-without having to generate and configure SSL certificates, it offers
-no way to verify the remote host's identity and renders the service
-vulnerable to a man-in-the-middle attack.
+ O host remoto suporta o uso de codificadores SSL anônimos. Embora isso permita que o administrador configure um serviço que criptografa o tráfego sem ter que gerar e configurar certificados SSL, ele não oferece nenhuma maneira de verificar a identidade do host remoto e torna o serviço vulnerável a um ataque \textit{man-in-the-middle}.
+ \\
+ Observação: Isso é consideravelmente mais fácil de explorar se o invasor estiver na mesma rede física.
 
-Note: This is considerably easier to exploit if the attacker is on the
-same physical network."
-	
 \subsection{Unix Operating System Unsupported Version Detection}
-"According to its self-reported version number, the Unix operating
-system running on the remote host is no longer supported.
-
-Lack of support implies that no new security patches for the product
-will be released by the vendor. As a result, it is likely to contain
-security vulnerabilities."
+ De acordo com seu número de versão autorrelatada, o sistema operacional UNIX em execução no host remoto não é mais suportado.
+ \\
+A falta de suporte implica que nenhum novo \textit{patch} de segurança para o produto será liberado pelo fornecedor. Como resultado, é provável que contenha vulnerabilidades de segurança.  "
 
 \subsection{Browsable Web Directories}
-"Multiple Nessus plugins identified directories on the web server
-that are browsable."
+ Vários plugins Nessus identificaram diretórios no servidor Web que são navegáveis.
 
 \subsection{SSL Medium Strength Cipher Suites Supported}
-"The remote host supports the use of SSL ciphers that offer medium
-strength encryption. Nessus regards medium strength as any encryption
-that uses key lengths at least 64 bits and less than 112 bits, or else
-that uses the 3DES encryption suite.
-
-Note that it is considerably easier to circumvent medium strength
-encryption if the attacker is on the same physical network."
-
+ O host remoto suporta o uso de codificadores SSL que oferecem criptografia de força média. Nessus considera a força média como qualquer criptografia que usa comprimentos de chave pelo menos 64 bits e menos de 112 bits, ou então que usa o conjunto de criptografia 3DES.
+\\
+Observe que é consideravelmente mais fácil burlar a criptografia de força média se o invasor estiver na mesma rede física.
 \subsection{Web Server Generic Cookie Injection}
 "The remote host is running a web server that fails to adequately
 sanitize request strings of malicious JavaScript.  By leveraging this
