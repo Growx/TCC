@@ -515,7 +515,7 @@ Os \textit{plugins} utilizados nesse estudo e os seus respectivos \textit{IDs} n
 
 \section{Descrição dos Plugins}
 	\subsection{Web Server Generic XSS}
-	 O host remoto está executando um servidor Web que não consegue desinfectar adequadamente solicitações de JavaScript malicioso. Um invasor remoto pode explorar esse problema, por meio de um pedido especialmente criado, para executar arbitráriamente HTML e código de script no navegador de um usuário dentro do contexto de segurança do site afetado.
+	 O host remoto está executando um servidor Web que não consegue desinfectar adequadamente solicitações de JavaScript malicioso. Um invasor remoto pode explorar esse problema, por meio de um pedido especialmente criado, para executar arbitrariamente HTML e código de script no navegador de um usuário dentro do contexto de segurança do site afetado.
 
 \subsection{Web Server info.php / phpinfo.php Detection}
 
@@ -547,7 +547,7 @@ Os \textit{plugins} utilizados nesse estudo e os seus respectivos \textit{IDs} n
 \subsection{Unix Operating System Unsupported Version Detection}
  De acordo com seu número de versão autorrelatada, o sistema operacional UNIX em execução no host remoto não é mais suportado.
  \\
-A falta de suporte implica que nenhum novo \textit{patch} de segurança para o produto será liberado pelo fornecedor. Como resultado, é provável que contenha vulnerabilidades de segurança.  "
+A falta de suporte implica que nenhum novo \textit{patch} de segurança para o produto será liberado pelo fornecedor. Como resultado, é provável que contenha vulnerabilidades de segurança.
 
 \subsection{Browsable Web Directories}
  Vários plugins Nessus identificaram diretórios no servidor Web que são navegáveis.
@@ -556,72 +556,33 @@ A falta de suporte implica que nenhum novo \textit{patch} de segurança para o p
  O host remoto suporta o uso de codificadores SSL que oferecem criptografia de força média. Nessus considera a força média como qualquer criptografia que usa comprimentos de chave pelo menos 64 bits e menos de 112 bits, ou então que usa o conjunto de criptografia 3DES.
 \\
 Observe que é consideravelmente mais fácil burlar a criptografia de força média se o invasor estiver na mesma rede física.
+
 \subsection{Web Server Generic Cookie Injection}
-"The remote host is running a web server that fails to adequately
-sanitize request strings of malicious JavaScript.  By leveraging this
-issue, an attacker may be able to inject arbitrary cookies.  Depending
-on the structure of the web application, it may be possible to launch
-a 'session fixation' attack using this mechanism.
 
-Please note that :
-
-- Nessus did not check if the session fixation attack is
-feasible.
-
-- This is not the only vector of session fixation."
+ O host remoto está executando um servidor Web que não consegue adequadamente
+desinfectar seqüências de solicitações de JavaScript maliciosos.  Aproveitando esse problema, um invasor pode ser capaz de injetar \textit{Cookies} arbitrários.  Dependendo da estrutura do aplicativo Web, pode ser possível lançar um ataque de "fixação de sessão" usando esse mecanismo. O Nessus não verificou se o ataque de fixação da sessão é viável e este não é o único vetor de fixação de sessão.
 
 \subsection{SSL Certificate with Wrong Hostname}
-"The 'commonName' (CN) attribute of the SSL certificate presented for
-this service is for a different machine."
+ O atributo 'commonName' (CN) do certificado SSL apresentado para este serviço é para uma máquina diferente.
 
 \subsection{PHP expose\_php Information Disclosure}
-"The PHP install on the remote server is configured in a way that
-allows disclosure of potentially sensitive information to an attacker
-through a special URL.  Such a URL triggers an Easter egg built into
-PHP itself. 
+ A instalação do PHP no servidor remoto é configurada de forma a permitir a divulgação de informações potencialmente sensíveis a um invasor por meio de uma URL especial.  Tal URL dispara um \textit{"Easter Egg} embutido no próprio PHP. 
 
-Other such Easter eggs likely exist, but Nessus has not checked for
-them."
+Outros \textit{"Easter Eggs} provavelmente existem, mas Nessus não verificou eles.
 
 \subsection{SSL Certificate Cannot Be Trusted}
-"The server's X.509 certificate cannot be trusted. This situation can
-occur in three different ways, in which the chain of trust can be
-broken, as stated below :
 
-- First, the top of the certificate chain sent by the
-server might not be descended from a known public
-certificate authority. This can occur either when the
-top of the chain is an unrecognized, self-signed
-certificate, or when intermediate certificates are
-missing that would connect the top of the certificate
-chain to a known public certificate authority.
-
-- Second, the certificate chain may contain a certificate
-that is not valid at the time of the scan. This can
-occur either when the scan occurs before one of the
-certificate's 'notBefore' dates, or after one of the
-certificate's 'notAfter' dates.
-
-- Third, the certificate chain may contain a signature
-that either didn't match the certificate's information
-or could not be verified. Bad signatures can be fixed by
-getting the certificate with the bad signature to be
-re-signed by its issuer. Signatures that could not be
-verified are the result of the certificate's issuer
-using a signing algorithm that Nessus either does not
-support or does not recognize.
-
-If the remote host is a public host in production, any break in the
-chain makes it more difficult for users to verify the authenticity and 
-identity of the web server. This could make it easier to carry out 
-man-in-the-middle attacks against the remote host."
+ O certificado X.509 do servidor não é confiável. Esta situação pode ocorrer de três maneiras diferentes, em que a cadeia de confiança pode ser quebrada, como indicado abaixo:
+\begin{itemize}
+	\item Primeiro, a parte superior da cadeia de certificados enviada pelo servidor pode não ser descendente de uma autoridade de certificação pública conhecida. Isso pode ocorrer quando a parte superior da cadeia é um certificado não reconhecido, auto-assinado ou quando certificados intermediários que conectariam a parte superior da cadeia de certificado a uma autoridade de certificação pública conhecida estão ausentes.
+	\item Em segundo lugar, a cadeia de certificados pode conter um certificado que não é válido no momento da verificação. Isso pode ocorrer quando a verificação ocorre antes de uma das datas \textit{notBefore} do certificado, ou após uma das datas \textit{notAfter} do certificado.
+	\item Em terceiro lugar, a cadeia de certificados pode conter uma assinatura que não correspondeu às informações do certificado ou não pôde ser verificada. Assinaturas ruins podem ser corrigidas obtendo o certificado com a assinatura incorreta para ser re-assinado pelo seu emissor. As assinaturas que não puderam ser verificadas são o resultado do emissor do certificado usando um algoritmo de assinatura que o Nessus não suporta ou não reconhece.
+\end{itemize}
+Se o host remoto for um host público em produção, qualquer quebra na cadeia torna mais difícil para os usuários verificarem a autenticidade e a identidade do servidor Web. Isso pode facilitar a realização de ataques \textit{man-in-the-middle} contra o host remoto.  "
 
 \subsection{SMTP Service Cleartext Login Permitted}
-"The remote host is running an SMTP server that advertises that it
-allows cleartext logins over unencrypted connections.  An attacker may
-be able to uncover user names and passwords by sniffing traffic to the
-server if a less secure authentication mechanism (i.e.  LOGIN or
-PLAIN) is used."
+
+O host remoto está executando um servidor SMTP que anuncia que ele permite logons de texto não criptografado em conexões não criptografadas.  Um invasor pode ser capaz de descobrir nomes de usuário e senhas farejando tráfego para o servidor se um mecanismo de autenticação menos seguro (ou seja,  LOGIN ou PLAIN) é usado.
 
 \subsection{PHP Unsupported Version Detection}
 "According to its version, the installation of PHP on the remote host
