@@ -515,38 +515,23 @@ Os \textit{plugins} utilizados nesse estudo e os seus respectivos \textit{IDs} n
 
 \section{Descrição dos Plugins}
 	\subsection{Web Server Generic XSS}
-"The remote host is running a web server that fails to adequately
-sanitize request strings of malicious JavaScript. A remote attacker
-can exploit this issue, via a specially crafted request, to execute
-arbitrary HTML and script code in a user's browser within the security
-context of the affected site."
+	 O host remoto está executando um servidor Web que não consegue desinfectar adequadamente solicitações de JavaScript malicioso. Um invasor remoto pode explorar esse problema, por meio de um pedido especialmente criado, para executar arbitráriamente HTML e código de script no navegador de um usuário dentro do contexto de segurança do site afetado.
+
 \subsection{Web Server info.php / phpinfo.php Detection}
-"Many PHP installation tutorials instruct the user to create a PHP file
-that calls the PHP function 'phpinfo()' for debugging purposes. 
-Various PHP applications may also include such a file.  By accessing
-such a file, a remote attacker can discover a large amount of
-information about the remote web server, including :
 
-- The username of the user who installed PHP and if they
-are a SUDO user.
-
-- The IP address of the host.
-
-- The version of the operating system.
-
-- The web server version.
-
-- The root directory of the web server. 
-
-- Configuration information about the remote PHP 
-installation."
+ Muitos tutoriais de instalação do PHP instruem o usuário a criar um arquivo PHP que chama a função PHP ' phpinfo () ' para fins de depuração. Vários aplicativos PHP também podem incluir esse arquivo.  Ao acessar esse arquivo, um invasor remoto pode descobrir uma grande quantidade de informações sobre o servidor Web remoto, incluindo:
+ \begin{itemize}
+ 	\item O nome do usuário que instalou o PHP e se eles são um usuário SUDO.
+ 	\item O endereço IP do host.
+ 	\item A versão do sistema operativo.
+ 	\item A versão do servidor Web.
+ 	\item O diretório raiz do servidor Web.
+ 	\item Informações de configuração sobre a instalação remota do PHP.
+ \end{itemize}
 
 \subsection{POP3 Cleartext Logins Permitted}
-"The remote host is running a POP3 daemon that allows cleartext logins
-over unencrypted connections. An attacker can uncover user names and
-passwords by sniffing traffic to the POP3 daemon if a less secure
-authentication mechanism (eg, USER command, AUTH PLAIN, AUTH LOGIN) is
-used."
+
+ O host remoto está executando um \textit{DAEMON} POP3 que permite logons de texto sem criptografia em conexões não criptografadas. Um invasor pode descobrir nomes de usuário e senhas farejando o tráfego para o \textit{DAEMON} POP3 se um mecanismo de autenticação menos seguro (por exemplo, comando USER, AUTH PLAIN, AUTH LOGIN) é usado.
 
 \subsection{Web Server Transmits Cleartext Credentials}
 	"The remote web server contains several HTML form fields containing
