@@ -34,29 +34,40 @@
 \contentsline {subsection}{\numberline {3.2.10}SSL Certificate with Wrong Hostname}{34}{subsection.3.2.10}
 \contentsline {subsection}{\numberline {3.2.11}PHP expose\_php Information Disclosure}{34}{subsection.3.2.11}
 \contentsline {subsection}{\numberline {3.2.12}SSL Certificate Cannot Be Trusted}{34}{subsection.3.2.12}
-\contentsline {subsection}{\numberline {3.2.13}SMTP Service Cleartext Login Permitted}{34}{subsection.3.2.13}
+\contentsline {subsection}{\numberline {3.2.13}SMTP Service Cleartext Login Permitted}{35}{subsection.3.2.13}
 \contentsline {subsection}{\numberline {3.2.14}PHP Unsupported Version Detection}{35}{subsection.3.2.14}
 \contentsline {subsection}{\numberline {3.2.15}Transport Layer Security (TLS) Protocol CRIME Vulnerability}{35}{subsection.3.2.15}
 \contentsline {subsection}{\numberline {3.2.16}Git Repository Served by Web Server}{35}{subsection.3.2.16}
 \contentsline {subsection}{\numberline {3.2.17}SSL RC4 Cipher Suites Supported (Bar Mitzvah)}{35}{subsection.3.2.17}
-\contentsline {subsection}{\numberline {3.2.18}SSH Server CBC Mode Ciphers Enabled}{35}{subsection.3.2.18}
+\contentsline {subsection}{\numberline {3.2.18}SSH Server CBC Mode Ciphers Enabled}{36}{subsection.3.2.18}
 \contentsline {subsection}{\numberline {3.2.19}SSH Weak MAC Algorithms Enabled}{36}{subsection.3.2.19}
 \contentsline {subsection}{\numberline {3.2.20}Web Application Potentially Vulnerable to Clickjacking}{36}{subsection.3.2.20}
-\contentsline {subsection}{\numberline {3.2.21}WordPress User Enumeration}{36}{subsection.3.2.21}
-\contentsline {subsection}{\numberline {3.2.22}SSH Weak Algorithms Supported}{36}{subsection.3.2.22}
+\contentsline {subsection}{\numberline {3.2.21}WordPress User Enumeration}{37}{subsection.3.2.21}
+\contentsline {subsection}{\numberline {3.2.22}SSH Weak Algorithms Supported}{37}{subsection.3.2.22}
 \contentsline {section}{\numberline {3.3}Hosts Testados}{37}{section.3.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados}}{39}{chapter.4}
+\contentsline {section}{\numberline {4.1}Contagem de Riscos}{39}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Total de riscos encontrados}{39}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Alexander Fleming}{39}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}AlphaMU}{40}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Boticario}{40}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Cantina Romana}{40}{subsection.4.1.5}
+\contentsline {subsection}{\numberline {4.1.6}Digix}{40}{subsection.4.1.6}
+\contentsline {subsection}{\numberline {4.1.7}FACOM, Google e Registro.br}{40}{subsection.4.1.7}
+\contentsline {subsection}{\numberline {4.1.8}Jera}{41}{subsection.4.1.8}
+\contentsline {subsection}{\numberline {4.1.9}Locaweb}{41}{subsection.4.1.9}
+\contentsline {subsection}{\numberline {4.1.10}MegaPowerMS}{41}{subsection.4.1.10}
+\contentsline {subsection}{\numberline {4.1.11}Parada Nerd}{41}{subsection.4.1.11}
+\contentsline {subsection}{\numberline {4.1.12}Terra}{41}{subsection.4.1.12}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Compara\IeC {\c c}\IeC {\~o}es}}{41}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Compara\IeC {\c c}\IeC {\~o}es}}{45}{chapter.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Poss\IeC {\'\i }veis solu\IeC {\c c}\IeC {\~o}es para os problemas}}{43}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Poss\IeC {\'\i }veis solu\IeC {\c c}\IeC {\~o}es para os problemas}}{47}{chapter.6}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Explorando as falhas}}{45}{chapter.7}
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Explorando as falhas}}{49}{chapter.7}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase {Conclus\IeC {\~a}o}}{47}{chapter.8}
+\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase {Conclus\IeC {\~a}o}}{51}{chapter.8}
 \vspace {\cftbeforechapterskip }
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{49}{section*.16}
 \vspace {\cftbeforechapterskip }

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.3)  23 OCT 2018 19:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.3)  6 NOV 2018 23:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -857,10 +857,6 @@ l.186
 
 
 ]
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 230.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 230--230
 
  []
@@ -932,933 +928,168 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ] [30] [31
 
 ]
-Underfull \vbox (badness 5260) has occurred while \output is active []
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 524.
 
- [32]
-[33] [34] [35] [36]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 747.
 
- (c:/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
+(c:/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 747.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 524.
+ [32]
+Underfull \vbox (badness 1888) has occurred while \output is active []
 
+ [33]
+[34] [35]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
 [37] [38
 
-] [39] [40
+]
+<Imagens/screenshot001.png, id=332, 336.7782pt x 209.1012pt>
+File: Imagens/screenshot001.png Graphic file (type png)
+<use Imagens/screenshot001.png>
+Package pdftex.def Info: Imagens/screenshot001.png  used on input line 658.
+(pdftex.def)             Requested size: 318.49861pt x 197.76758pt.
+<Imagens/AlexanderFleming.png, id=333, 336.7782pt x 209.1012pt>
+File: Imagens/AlexanderFleming.png Graphic file (type png)
+<use Imagens/AlexanderFleming.png>
+Package pdftex.def Info: Imagens/AlexanderFleming.png  used on input line 666.
+(pdftex.def)             Requested size: 318.49861pt x 197.76758pt.
+<Imagens/AlphaMU.png, id=334, 336.7782pt x 209.1012pt>
+File: Imagens/AlphaMU.png Graphic file (type png)
+<use Imagens/AlphaMU.png>
+Package pdftex.def Info: Imagens/AlphaMU.png  used on input line 674.
+(pdftex.def)             Requested size: 318.49861pt x 197.76758pt.
 
-] [41] [42
 
-] [43] [44
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Imagens/Boticario.png, id=335, 336.7782pt x 209.1012pt>
+File: Imagens/Boticario.png Graphic file (type png)
+<use Imagens/Boticario.png>
+Package pdftex.def Info: Imagens/Boticario.png  used on input line 682.
+(pdftex.def)             Requested size: 318.49861pt x 197.76758pt.
+[39 <./Imagens/screenshot001.png> <./Imagens/AlexanderFleming.png>]
+<Imagens/CantinaRomana.png, id=342, 336.7782pt x 209.1012pt>
+File: Imagens/CantinaRomana.png Graphic file (type png)
+<use Imagens/CantinaRomana.png>
+Package pdftex.def Info: Imagens/CantinaRomana.png  used on input line 690.
+(pdftex.def)             Requested size: 318.49861pt x 197.76758pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Imagens/Digix.png, id=343, 336.7782pt x 209.1012pt>
+File: Imagens/Digix.png Graphic file (type png)
+<use Imagens/Digix.png>
+Package pdftex.def Info: Imagens/Digix.png  used on input line 698.
+(pdftex.def)             Requested size: 318.49861pt x 197.76758pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Imagens/Jera.png, id=344, 336.7782pt x 209.1012pt>
+File: Imagens/Jera.png Graphic file (type png)
+<use Imagens/Jera.png>
+Package pdftex.def Info: Imagens/Jera.png  used on input line 709.
+(pdftex.def)             Requested size: 318.49861pt x 197.76758pt.
+[40 <./Imagens/AlphaMU.png> <./Imagens/Boticario.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Imagens/Locaweb.png, id=351, 336.7782pt x 209.1012pt>
+File: Imagens/Locaweb.png Graphic file (type png)
+<use Imagens/Locaweb.png>
+Package pdftex.def Info: Imagens/Locaweb.png  used on input line 717.
+(pdftex.def)             Requested size: 318.49861pt x 197.76758pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Imagens/MegaPowerMS.png, id=352, 336.7782pt x 209.1012pt>
+File: Imagens/MegaPowerMS.png Graphic file (type png)
+<use Imagens/MegaPowerMS.png>
+Package pdftex.def Info: Imagens/MegaPowerMS.png  used on input line 725.
+(pdftex.def)             Requested size: 318.49861pt x 197.76758pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Imagens/ParadaNerd.png, id=353, 336.7782pt x 209.1012pt>
+File: Imagens/ParadaNerd.png Graphic file (type png)
+<use Imagens/ParadaNerd.png>
+Package pdftex.def Info: Imagens/ParadaNerd.png  used on input line 733.
+(pdftex.def)             Requested size: 318.49861pt x 197.76758pt.
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.737 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<Imagens/Terra.png, id=354, 336.7782pt x 209.1012pt>
+File: Imagens/Terra.png Graphic file (type png)
+<use Imagens/Terra.png>
+Package pdftex.def Info: Imagens/Terra.png  used on input line 741.
+(pdftex.def)             Requested size: 318.49861pt x 197.76758pt.
+[41 <./Imagens/CantinaRomana.png> <./Imagens/Digix.png>] [42 <./Imagens/Jera.pn
+g> <./Imagens/Locaweb.png> <./Imagens/MegaPowerMS.png>] [43 <./Imagens/ParadaNe
+rd.png> <./Imagens/Terra.png>] [44
 
 ] [45] [46
 
-]
+] [47] [48
 
-LaTeX Warning: Citation `*' on page 47 undefined on input line 789.
-
-(./TCC V1.0.bbl (./TCC V1.0.brf)
-\tf@brf=\write5
-\openout5 = `"TCC V1.0.brf"'.
-
- [47] [48
+] [49] [50
 
 ]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 3.
-
-bibitemlist
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 111.
-
-(c:/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-
-! Class memoir Error: Font command \tt is not supported.
-
-See the memoir class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.111 
-      
-Use \texttt, or \ttfamily{...}, or the oldfontcommands option
-
-
-! LaTeX Error: \verb illegal in command argument.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.111 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Argument of \verbatim@ has an extra }.
-<inserted text> 
-                \par 
-l.111 
-      
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-@abnt-options{abnt-show-options=list, key={aaaa}, abnt-show-options={\ETC.
-! Paragraph ended before \verbatim@ was complete.
-<to be read again> 
-                   \par 
-l.111 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-<recently read> }
-                 
-l.111 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-)
-Runaway argument?
- {Mudan\c ca de estilo ap\'os este ponto com o comando \verb !\citeoption \ETC.
-! File ended while scanning use of \BR@@lbibitem.
-<inserted text> 
-                \par 
-l.790 \bibliography{biblio}
-                           
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-! Argument of \verbatim@ has an extra }.
-<inserted text> 
-                \par 
-l.790 \bibliography{biblio}
-                           
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-@abnt-options{abnt-substyle=none, key={aaaa}} \end {verbatim}
-! Paragraph ended before \verbatim@ was complete.
-<to be read again> 
-                   \par 
-l.790 \bibliography{biblio}
-                           
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-<recently read> }
-                 
-l.790 \bibliography{biblio}
-                           
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Argument of \BR@@lbibitem has an extra }.
-<inserted text> 
-                \par 
-l.790 \bibliography{biblio}
-                           
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-
-! Class memoir Error: Font command \tt is not supported.
-
-See the memoir class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.790 \bibliography{biblio}
-                           
-Use \texttt, or \ttfamily{...}, or the oldfontcommands option
-
-! Misplaced alignment tab character &.
-<argument> ...cionada {\tt abnt-and-type=}\verb +&
-                                                  +. Op\c c\~ao selecionada ...
-l.790 \bibliography{biblio}
-                           
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-! Class memoir Error: Font command \tt is not supported.
-
-See the memoir class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.790 \bibliography{biblio}
-                           
-Use \texttt, or \ttfamily{...}, or the oldfontcommands option
-
-
-! Class memoir Error: Font command \tt is not supported.
-
-See the memoir class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.790 \bibliography{biblio}
-                           
-Use \texttt, or \ttfamily{...}, or the oldfontcommands option
-
-
-! LaTeX Error: \verb illegal in command argument.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.790 \bibliography{biblio}
-                           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 790--790
-[]\T1/lmtt/m/n/10 Mudança de estilo após este ponto com o comando [] . Opção se
-lecionada abnt-and-type=[][]+.
- []
-
-! Argument of \verbatim@ has an extra }.
-<inserted text> 
-                \par 
-l.790 \bibliography{biblio}
-                           
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-@abnt-options{abnt-substyle=UFLA, key={aaaa}} \end {verbatim}
-! Paragraph ended before \verbatim@ was complete.
-<to be read again> 
-                   \par 
-l.790 \bibliography{biblio}
-                           
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-<recently read> }
-                 
-l.790 \bibliography{biblio}
-                           
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Argument of \BR@@lbibitem has an extra }.
-<inserted text> 
-                \par 
-l.790 \bibliography{biblio}
-                           
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-
-! Class memoir Error: Font command \tt is not supported.
-
-See the memoir class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.790 \bibliography{biblio}
-                           
-Use \texttt, or \ttfamily{...}, or the oldfontcommands option
-
-
-! LaTeX Error: \verb illegal in command argument.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.790 \bibliography{biblio}
-                           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 790--790
-[]\T1/lmtt/m/n/10 Mudança de estilo após este ponto com o comando [] . Opção se
-lecionada
- []
-
-! Argument of \verbatim@ has an extra }.
-<inserted text> 
-                \par 
-l.790 \bibliography{biblio}
-                           
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-@abnt-options{abnt-substyle=COPPE, key={aaaa}, abnt-title-command={ye\ETC.
-! Paragraph ended before \verbatim@ was complete.
-<to be read again> 
-                   \par 
-l.790 \bibliography{biblio}
-                           
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-<recently read> }
-                 
-l.790 \bibliography{biblio}
-                           
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Argument of \BR@@lbibitem has an extra }.
-<inserted text> 
-                \par 
-l.790 \bibliography{biblio}
-                           
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-
-! Class memoir Error: Font command \tt is not supported.
-
-See the memoir class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.790 \bibliography{biblio}
-                           
-Use \texttt, or \ttfamily{...}, or the oldfontcommands option
-
-
-! LaTeX Error: \verb illegal in command argument.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.790 \bibliography{biblio}
-                           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 790--790
-[]\T1/lmtt/m/n/10 Mudança de estilo após este ponto com o comando [] . Opção se
-lecionada
- []
-
-! Argument of \verbatim@ has an extra }.
-<inserted text> 
-                \par 
-l.790 \bibliography{biblio}
-                           
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-@abnt-options{abnt-thesis-year=final, key={aaaa}, abnt-thesis-year={f\ETC.
-! Paragraph ended before \verbatim@ was complete.
-<to be read again> 
-                   \par 
-l.790 \bibliography{biblio}
-                           
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-<recently read> }
-                 
-l.790 \bibliography{biblio}
-                           
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Argument of \BR@@lbibitem has an extra }.
-<inserted text> 
-                \par 
-l.790 \bibliography{biblio}
-                           
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-
-! Class memoir Error: Font command \tt is not supported.
-
-See the memoir class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.790 \bibliography{biblio}
-                           
-Use \texttt, or \ttfamily{...}, or the oldfontcommands option
-
-
-! LaTeX Error: \verb illegal in command argument.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.790 \bibliography{biblio}
-                           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 790--790
-[]\T1/lmtt/m/n/10 Mudança de estilo após este ponto com o comando [] . Opção se
-lecionada
- []
-
-! Argument of \verbatim@ has an extra }.
-<inserted text> 
-                \par 
-l.790 \bibliography{biblio}
-                           
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-@abnt-options{abnt-thesis-year=title, key={aaaa}, abnt-thesis-year={t\ETC.
-! Paragraph ended before \verbatim@ was complete.
-<to be read again> 
-                   \par 
-l.790 \bibliography{biblio}
-                           
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-<recently read> }
-                 
-l.790 \bibliography{biblio}
-                           
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Argument of \BR@@lbibitem has an extra }.
-<inserted text> 
-                \par 
-l.790 \bibliography{biblio}
-                           
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-
-! Class memoir Error: Font command \tt is not supported.
-
-See the memoir class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.790 \bibliography{biblio}
-                           
-Use \texttt, or \ttfamily{...}, or the oldfontcommands option
-
-
-! LaTeX Error: \verb illegal in command argument.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.790 \bibliography{biblio}
-                           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 790--790
-[]\T1/lmtt/m/n/10 Mudança de estilo após este ponto com o comando [] . Opção se
-lecionada
- []
-
-! Argument of \verbatim@ has an extra }.
-<inserted text> 
-                \par 
-l.790 \bibliography{biblio}
-                           
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-@abnt-options{abnt-thesis-year=both, key={aaaa}, abnt-thesis-year={bo\ETC.
-! Paragraph ended before \verbatim@ was complete.
-<to be read again> 
-                   \par 
-l.790 \bibliography{biblio}
-                           
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-<recently read> }
-                 
-l.790 \bibliography{biblio}
-                           
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Argument of \BR@@lbibitem has an extra }.
-<inserted text> 
-                \par 
-l.790 \bibliography{biblio}
-                           
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-
-! Class memoir Error: Font command \tt is not supported.
-
-See the memoir class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.790 \bibliography{biblio}
-                           
-Use \texttt, or \ttfamily{...}, or the oldfontcommands option
-
-
-! LaTeX Error: \verb illegal in command argument.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.790 \bibliography{biblio}
-                           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 790--790
-[]\T1/lmtt/m/n/10 Mudança de estilo após este ponto com o comando [] . Opção se
-lecionada
- []
-
-! Argument of \verbatim@ has an extra }.
-<inserted text> 
-                \par 
-l.790 \bibliography{biblio}
-                           
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-@abnt-options{abnt-title-command=no, key={aaaa}, abnt-title-command={\ETC.
-! Paragraph ended before \verbatim@ was complete.
-<to be read again> 
-                   \par 
-l.790 \bibliography{biblio}
-                           
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-<recently read> }
-                 
-l.790 \bibliography{biblio}
-                           
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Argument of \BR@@lbibitem has an extra }.
-<inserted text> 
-                \par 
-l.790 \bibliography{biblio}
-                           
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-
-! Class memoir Error: Font command \tt is not supported.
-
-See the memoir class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.790 \bibliography{biblio}
-                           
-Use \texttt, or \ttfamily{...}, or the oldfontcommands option
-
-
-! LaTeX Error: \verb illegal in command argument.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.790 \bibliography{biblio}
-                           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 790--790
-[]\T1/lmtt/m/n/10 Mudança de estilo após este ponto com o comando [] . Opção se
-lecionada
- []
-
-! Argument of \verbatim@ has an extra }.
-<inserted text> 
-                \par 
-l.790 \bibliography{biblio}
-                           
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-@abnt-options{abnt-title-command=yes, key={aaaa}, abnt-title-command=\ETC.
-! Paragraph ended before \verbatim@ was complete.
-<to be read again> 
-                   \par 
-l.790 \bibliography{biblio}
-                           
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-<recently read> }
-                 
-l.790 \bibliography{biblio}
-                           
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Argument of \BR@@lbibitem has an extra }.
-<inserted text> 
-                \par 
-l.790 \bibliography{biblio}
-                           
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-
-! Class memoir Error: Font command \tt is not supported.
-
-See the memoir class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.790 \bibliography{biblio}
-                           
-Use \texttt, or \ttfamily{...}, or the oldfontcommands option
-
-
-! LaTeX Error: \verb illegal in command argument.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.790 \bibliography{biblio}
-                           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 790--790
-[]\T1/lmtt/m/n/10 Mudança de estilo após este ponto com o comando [] . Opção se
-lecionada
- []
-
-! Argument of \verbatim@ has an extra }.
-<inserted text> 
-                \par 
-l.790 \bibliography{biblio}
-                           
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-@abnt-options{abnt-url-package=none, key={aaaa}, abnt-url-package={no\ETC.
-! Paragraph ended before \verbatim@ was complete.
-<to be read again> 
-                   \par 
-l.790 \bibliography{biblio}
-                           
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-<recently read> }
-                 
-l.790 \bibliography{biblio}
-                           
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Argument of \BR@@lbibitem has an extra }.
-<inserted text> 
-                \par 
-l.790 \bibliography{biblio}
-                           
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-
-! Class memoir Error: Font command \tt is not supported.
-
-See the memoir class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.790 \bibliography{biblio}
-                           
-Use \texttt, or \ttfamily{...}, or the oldfontcommands option
-
-
-! LaTeX Error: \verb illegal in command argument.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.790 \bibliography{biblio}
-                           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 790--790
-[]\T1/lmtt/m/n/10 Mudança de estilo após este ponto com o comando [] . Opção se
-lecionada
- []
-
-! Argument of \verbatim@ has an extra }.
-<inserted text> 
-                \par 
-l.790 \bibliography{biblio}
-                           
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-@abnt-options{abnt-url-package=hyperref, key={aaaa}, abnt-url-package\ETC.
-! Paragraph ended before \verbatim@ was complete.
-<to be read again> 
-                   \par 
-l.790 \bibliography{biblio}
-                           
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-<recently read> }
-                 
-l.790 \bibliography{biblio}
-                           
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Argument of \BR@@lbibitem has an extra }.
-<inserted text> 
-                \par 
-l.790 \bibliography{biblio}
-                           
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-
-! Class memoir Error: Font command \tt is not supported.
-
-See the memoir class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.790 \bibliography{biblio}
-                           
-Use \texttt, or \ttfamily{...}, or the oldfontcommands option
-
-
-! LaTeX Error: \verb illegal in command argument.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.790 \bibliography{biblio}
-                           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 790--790
-[]\T1/lmtt/m/n/10 Mudança de estilo após este ponto com o comando [] . Opção se
-lecionada
- []
-
-[49]
-! Extra }, or forgotten \endgroup.
-<recently read> }
-                 
-l.790 \bibliography{biblio}
-                           
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-)
-! Emergency stop.
-<*> "TCC V1.0.tex"
-                  
-*** (job aborted, no legal \end found)
-
- 
+No file "TCC V1.0".ind.
+
+AED: lastpage setting LastPage
+[51]
+\tf@lof=\write5
+\openout5 = `"TCC V1.0.lof"'.
+
+\tf@lot=\write6
+\openout6 = `"TCC V1.0.lot"'.
+
+\tf@toc=\write7
+\openout7 = `"TCC V1.0.toc"'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 784.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 784.
+ (./TCC V1.0.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 784.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 784.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 784.
+ ) 
 Here is how much of TeX's memory you used:
- 13822 strings out of 492642
- 207708 string characters out of 6133163
- 375507 words of memory out of 5000000
- 17274 multiletter control sequences out of 15000+600000
- 90892 words of font info for 116 fonts, out of 8000000 for 9000
+ 13812 strings out of 492642
+ 206971 string characters out of 6133163
+ 375591 words of memory out of 5000000
+ 17234 multiletter control sequences out of 15000+600000
+ 85113 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,13n,38p,389b,2183s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 42i,12n,38p,545b,541s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2018
+/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/texlive/2018/texmf-dist/fonts/type
+1/public/lm/lmbx12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.
+pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/201
+8/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2018/texmf-dist/fonts
+/type1/public/lm/lmri12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/l
+mss10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texl
+ive/2018/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2018/texmf-dis
+t/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
+blic/lm/lmsy10.pfb>
+Output written on "TCC V1.0.pdf" (53 pages, 357025 bytes).
+PDF statistics:
+ 670 PDF objects out of 1000 (max. 8388607)
+ 577 compressed objects within 6 object streams
+ 140 named destinations out of 1000 (max. 500000)
+ 30768 words of extra memory for PDF output out of 35830 (max. 10000000)
+
