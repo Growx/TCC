@@ -618,31 +618,13 @@ O servidor SSH remoto está configurado para permitir algoritmos de  MD5 ou MAC 
 Este plugin só verifica as opções do servidor SSH e não verifica se há versões de software vulneráveis.
 
 \subsection{Web Application Potentially Vulnerable to Clickjacking}
-"The remote web server does not set an X-Frame-Options response header
-or a Content-Security-Policy 'frame-ancestors' response header in all
-content responses. This could potentially expose the site to a
-clickjacking or UI redress attack, in which an attacker can trick a
-user into clicking an area of the vulnerable page that is different
-than what the user perceives the page to be. This can result in a user
-performing fraudulent or malicious transactions.
+O servidor web remoto não define um cabeçalho de resposta X-Frame-Options ou um cabeçalho de resposta Content-Security-Policy 'frame-ancestors'  em todas as respostas de conteúdo. Isto poderia potencialmente expor o site para um \textit{clickjacking} ou ataque de reparação de interface do usuário, no qual um invasor pode enganar um usuário para clicar em uma área da página vulnerável que é diferente do que o usuário percebe. Isso pode resultar em transações fraudulentas ou maliciosas.
 
-X-Frame-Options has been proposed by Microsoft as a way to mitigate
-clickjacking attacks and is currently supported by all major browser
-vendors.
+X-Frame-Options foi proposto pela Microsoft como uma maneira de atenuar os ataques de \textit{clickjacking} e atualmente é suportado por todos os fornecedores dos principais navegadores de Internet.
 
-Content-Security-Policy (CSP) has been proposed by the W3C Web
-Application Security Working Group, with increasing support among
-all major browser vendors, as a way to mitigate clickjacking and other
-attacks. The 'frame-ancestors' policy directive restricts which
-sources can embed the protected resource.
+Content-Security-Policy (CSP) foi proposto pela W3C Web Application Security Working Group, com crescente apoio entre todos os fornecedores dos principais navegadores, como uma forma de atenuar o \textit{clickjacking} e outros ataques. A Directiva de política 'frame-ancestors' restringe quais fontes podem incorporar o recurso protegido.
 
-Note that while the X-Frame-Options and Content-Security-Policy
-response headers are not the only mitigations for clickjacking, they
-are currently the most reliable methods that can be detected through
-automation. Therefore, this plugin may produce false positives if
-other mitigation strategies (e.g., frame-busting JavaScript) are
-deployed or if the page does not perform any security-sensitive
-transactions."
+Observe que enquanto o X-Frame-Options e cabeçalhos de resposta Content-Security-Policy não são as únicas mitigações para \textit{clickjacking}, eles são atualmente os métodos mais confiáveis que podem ser detectados através da automação. Portanto, este plugin pode produzir resultados falsos positivos se forem implantadas outras estratégias de mitigação (por exemplo, frame-busting JavaScript) ou se a página não executa quaisquer transações confidenciais.
 
 \subsection{WordPress User Enumeration}
 "The version of WordPress hosted on the remote web server is affected
